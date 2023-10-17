@@ -1,0 +1,14 @@
+# Include the README and LICENSE in the root directory
+include README.md
+include LICENSE
+
+# Include all Python files in the generated_content directory
+recursive-include generated_content *.py
+
+# Include any additional files if needed
+# (e.g., configuration files, data files, etc.)
+# For this project, we don't seem to have any, but here's an example for future reference:
+# recursive-include generated_content/data *.txt
+
+# Exclude any unwanted files, for instance:
+# global-exclude *.log
