@@ -1,0 +1,35 @@
+# Ignore Python byte code files and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore user-specific IDE and editor configuration files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore environment-specific files
+.env
+
+#ignore main.py
+main.py
