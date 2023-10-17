@@ -43,6 +43,18 @@ A Python module designed to generate dynamic content based on specific patterns 
 
 ## Installation
 
+### Via PyPI
+
+You can install the `dynamic-content-generator` module directly from the Python Package Index using pip:
+
+```bash
+pip install dynamic-content-generator
+```
+
+### Via GitHub
+
+Alternatively, you can also install the module directly from its GitHub repository:
+
 1. Clone the repository:
 
 ```bash
@@ -56,6 +68,13 @@ cd dynamic_content_generator
 ```bash
 pip install -r requirements.txt
 ```
+
+## Dependencies
+
+This module primarily depends on the Faker library.
+
+- When you install via pip, the necessary dependencies, including Faker, will be automatically handled.
+- If you are setting up the project manually via GitHub, make sure to install the dependencies using the requirements.txt file as mentioned above.
 
 ## Usage
 

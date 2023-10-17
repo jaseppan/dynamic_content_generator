@@ -33,3 +33,6 @@ ENV/
 
 #ignore main.py
 main.py
+dist
+build
+*.egg-info
